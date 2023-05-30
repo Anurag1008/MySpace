@@ -1036,6 +1036,7 @@ int Bin2Dec(str bin, int signMode){
     return dec;
 }
 
+
 str BinaryAdd(str a, str b){
     str newA = (str) calloc(1,1);
     str newB = (str) calloc(1,1);
